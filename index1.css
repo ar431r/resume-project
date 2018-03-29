@@ -1,0 +1,117 @@
+
+.flex-parent
+{
+display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+}
+.profile{
+  width: 30%;
+  height: auto;
+    background:#fff;
+    padding: 1%;
+    margin: 1%;
+    border:1px solid #000;
+    border-radius: 20px;
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid green;
+    box-shadow: 2px 3px 5px red;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body{
+    background:orange;
+  }
+.content{
+  width:70%;
+  height: auto;
+  background:#fff;
+  padding: 1%;
+    margin: 1%;
+    border:1px solid #000;
+    border-radius: 20px;
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+  .flex-parent
+  {
+  display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+  }
+  .profile{
+    width: 100%;
+    height: auto;
+      background:#fff;
+      padding: 1%;
+      margin: 1%;
+      border:1px solid #000;
+      border-radius: 20px;
+    }
+    .content{
+      width:100%;
+      height:auto;
+      background:#fff;
+      padding: 1%;
+        margin: 1%;
+        border:1px solid #000;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-device-width:481px) and (max-device-width:768px){
+  .flex-parent
+  {
+  display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+  }
+  .profile{
+    width: 100%;
+    height: auto;
+      background:#fff;
+      padding: 1%;
+      margin: 1%;
+      border:1px solid #000;
+      border-radius: 20px;
+    }
+    .content{
+      width:100%;
+      height:auto;
+      background:#fff;
+      padding: 1%;
+        margin: 1%;
+        border:1px solid #000;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-device-width:769px) and (max-device-width:1024px){
+  .flex-parent
+  {
+  display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+  }
+  .profile{
+    width: 100%;
+    height: auto;
+      background:#fff;
+      padding: 1%;
+      margin: 1%;
+      border:1px solid #000;
+      border-radius: 20px;
+    }
+    .content{
+      width:100%;
+      height:auto;
+      background:#fff;
+      padding: 1%;
+        margin: 1%;
+        border:1px solid #000;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "basics":{
+    "photo":"icon.png",
+    "name":"janvi",
+    "email":"jannu@gmail.com",
+    "mobile":"9876543210",
+    "Address":"Chittoor"
+  },
+  "career": {
+    "info":" Seeking challenging career in [your profession] Sector to get a position of responsibility, using my professional skills and efficiency to communicate my ideas and views and commit myself for achieving organizational objectives with the team effort and my positive attitude and performance."
+  },
+  "education":[
+    { "course":"MCA",
+      "college":"SVPCET, Puttur",
+      "data":["2017-2020","75%"]
+    },
+    { "course":"BSC(Computer)",
+      "college":"Shree Ramana Degree College, Puttur",
+      "data":["2014-2017","87%"]
+    },
+    { "course":"INTERMEDIATE(MPC)",
+      "college":"Sri Sai Jyothi Junior College, Puttur",
+      "data":["2012-2014","96%"]
+    },
+    { "course":"SSC",
+      "college":"Jnana Jyothi Vidya Mandir, Puttur",
+      "data":["2011-2012","93%"]
+    }
+  ]
+}
